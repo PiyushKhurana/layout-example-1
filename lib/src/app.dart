@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import './widgets/button_section.dart';
 import './widgets/text_section.dart';
 import './widgets/title_section.dart';
+import './widgets/image_section.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         body:ListView(
           children: <Widget>[
             TitleSection(),
-            TextSection()
+            TextSection(),
           ],
         )
       ),
