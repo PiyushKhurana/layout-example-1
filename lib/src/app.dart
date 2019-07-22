@@ -13,7 +13,11 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title:Text('Flutter Example')
         ),
-        body:ListView()
+        body:ListView(
+          children: <Widget>[
+            TitleSection(),
+          ],
+        )
       ),
     );
   }
