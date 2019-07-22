@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             ImageSection(),
             TitleSection(),
+            ButtonSection(),
             TextSection(),
           ],
         )
