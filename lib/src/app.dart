@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         ),
         body:ListView(
           children: <Widget>[
+            ImageSection(),
             TitleSection(),
             TextSection(),
           ],
